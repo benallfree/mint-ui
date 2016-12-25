@@ -1,11 +1,3 @@
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-header {
     -webkit-box-align: center;
@@ -68,14 +60,6 @@
         -ms-flex: 1;
             flex: 1;
 }
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-button {
     -webkit-appearance: none;
@@ -115,7 +99,7 @@
 }
 .mint-button--default {
     color: #b8bbbf;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: rgba(0, 0, 0, 0.9);
     box-shadow: 0 0 1px #b8bbbf
 }
 .mint-button--default.is-plain {
@@ -156,14 +140,6 @@
     padding: 0 12px;
     height: 33px
 }
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-cell {
     background-color:inherit;
@@ -238,7 +214,7 @@
             flex: 1;
 }
 .mint-cell-value {
-    color: #888;
+    color: #b8bbbf;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -277,14 +253,6 @@
     -webkit-transform: translateY(-50%) rotate(45deg);
             transform: translateY(-50%) rotate(45deg);
 }
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-cell-swipe .mint-cell-wrapper, .mint-cell-swipe .mint-cell-left, .mint-cell-swipe .mint-cell-right {
     -webkit-transition: -webkit-transform 150ms ease-in-out;
@@ -301,14 +269,6 @@
     padding: 0 10px;
     line-height: 48px;
 }
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-field {
     display: -webkit-box;
@@ -385,14 +345,6 @@
     right: 0;
     position: absolute;
 }
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-badge {
     color: #b8bbbf;
@@ -426,14 +378,6 @@
 .mint-badge.is-success {
     background-color: #4caf50
 }
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-switch {
     display: -webkit-box;
@@ -725,14 +669,6 @@ display: inline-block;
         opacity: 1
     }
 }
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-tab-item {
     display: block;
@@ -783,14 +719,6 @@ display: inline-block;
     display: -ms-flexbox;
     display: flex;
 }
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-navbar {
     background-color: #b8bbbf;
@@ -818,14 +746,6 @@ display: inline-block;
     position: fixed;
     z-index: 1;
 }
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-tabbar {
     background-image: -webkit-linear-gradient(top, #b8bbbf, #b8bbbf 50%, transparent 50%);
@@ -834,7 +754,7 @@ display: inline-block;
     background-repeat: no-repeat;
     background-position: top left;
     position: relative;
-    background-color: rgba(0, 0, 0, .7);
+    background-color: black;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -846,7 +766,7 @@ display: inline-block;
 }
 .mint-tabbar > .mint-tab-item.is-selected {
     box-shadow: 0 0 1px #a6e2a6;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0, 0, 0, 0.9);
     color: #a6e2a6;
 }
 .mint-tabbar.is-fixed {
@@ -856,14 +776,6 @@ display: inline-block;
     position: fixed;
     z-index: 1;
 }
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-search {
     height: 100%;
@@ -946,14 +858,6 @@ display: inline-block;
     left: 0;
     position: absolute;
 }
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-checklist .mint-cell {
     padding: 0;
@@ -967,7 +871,7 @@ display: inline-block;
     padding: 0 10px;
 }
 .mint-checklist-title {
-    color: #888;
+    color: #b8bbbf;
     display: block;
     font-size: 12px;
     margin: 8px;
@@ -1023,14 +927,6 @@ display: inline-block;
     transition: transform .2s;
     transition: transform .2s, -webkit-transform .2s;
 }
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-radiolist .mint-cell {
     padding: 0;
@@ -1043,7 +939,7 @@ display: inline-block;
     font-size: 12px;
     margin: 8px;
     display: block;
-    color: #888;
+    color: #b8bbbf;
 }
 .mint-radio {}
 .mint-radio.is-right {
@@ -1733,15 +1629,7 @@ to{opacity:0
 }
 }
 .v-modal{position:fixed;left:0;top:0;width:100%;height:100%;opacity:.5;background:#000
-}/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
-/* z-index */
+}/* z-index */
 .mint-datetime {
     width: 100%;
 }
@@ -1766,14 +1654,6 @@ to{opacity:0
 .mint-datetime-confirm {
     float: right;
 }
-/* Cell Component */
-/* Header Component */
-/* Button Component */
-/* Tab Item Component */
-/* Tabbar Component */
-/* Navbar Component */
-/* Checklist Component */
-/* Radio Component */
 /* z-index */
 .mint-indexlist {
     width: 100%;
@@ -1947,95 +1827,5 @@ to{opacity:0
 .mintui-field-warning:before { content: "\E608"; }
 .mintui-success:before { content: "\E602"; }
 .mintui-field-success:before { content: "\E609"; }
-/* Cell Component */
-
-/* Header Component */
-
-/* Button Component */
-
-/* Tab Item Component */
-
-/* Tabbar Component */
-
-/* Navbar Component */
-
-/* Checklist Component */
-
-/* Radio Component */
-
 /* z-index */
 
-html#cordova
-{
-
-  @keyframes fade {
-      from { opacity: 1.0; }
-      50% { opacity: 0.4; }
-      to { opacity: 1.0; }
-  }
- 
-  @-webkit-keyframes fade {
-      from { opacity: 1.0; }
-      50% { opacity: 0.4; }
-      to { opacity: 1.0; }
-  }
-  
-}
-
-html#cordova * { -webkit-tap-highlight-color: rgba(0,0,0,0);
-
-  /* make transparent link selection, adjust last value opacity 0 to 1.0 */
-  
-}
-
-html#cordova body { -webkit-touch-callout: none;
-
-  /* prevent callout to copy image, etc when tap to hold */ -webkit-text-size-adjust: none;
-
-  /* prevent webkit from resizing text to fit */ -webkit-user-select: none;
-
-  /* prevent copy paste, to allow, change 'none' to 'text' */ background-color: black; background-image:linear-gradient(top, #222 0%, black 51%); background-image:-webkit-linear-gradient(top, #222 0%, black 51%); background-image:-ms-linear-gradient(top, #222 0%, black 51%); background-image:-webkit-gradient(
-          linear,
-          left top,
-          left bottom,
-          color-stop(0, #222),
-          color-stop(0.51, black)
-      ); background-attachment:fixed; font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif; font-size:12px; height:100%; margin:0px; padding:0px; text-transform:uppercase; width:100%; color: #b8bbbf;
-  
-}
-
-/* Landscape layout (with min-width) */
-
-html#cordova h1 { font-size:24px; font-weight:400; margin:0px; overflow:visible; padding:0px; text-align:center;
-  
-}
-
-html#cordova .event { border-radius:4px; -webkit-border-radius:4px; color:#FFFFFF; font-size:12px; margin:0px 30px; padding:2px 0px;
-  
-}
-
-html#cordova .event.listening { background-color:#333333; display:block;
-  
-}
-
-html#cordova .event.received { background-color:#4B946A; display:none;
-  
-}
-
-html#cordova .blink { animation:fade 3000ms infinite; -webkit-animation:fade 3000ms infinite;
-  
-}
-
-@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
-
-  html#cordova .app
-{ background-position: left center; padding: 75px 0px 75px 170px;
-
-    /* padding-top + padding-bottom + text area = image height */ margin: -90px 0px 0px -198px;
-
-    /* offset vertical: half of image height */
-
-    /* offset horizontal: half of image width and text area width */
-  
-  }
-  }

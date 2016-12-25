@@ -81,6 +81,15 @@ export default {
 <style lang="css">
   @import "../../../src/style/var.css";
 
+  $button-default-color: $blur-color;
+  $button-default-background-color: $default-background-color;
+  $button-default-plain-color: #5a5a5a;
+  $button-default-box-shadow: 0 0 1px $blur-color;
+  $button-primary-color: #fff;
+  $button-primary-background-color: #26a2ff;
+  $button-danger-color: #fff;
+  $button-danger-background-color: #ef4f4f;
+
   @component-namespace mint {
     @component button {
       appearance: none;
@@ -114,7 +123,7 @@ export default {
 
       @modifier default {
         color: $button-default-color;
-        background-color: $button-default-background-color;
+        background-color: rgba($button-default-background-color, $default-opacity);
         box-shadow: $button-default-box-shadow;
 
         @when plain {

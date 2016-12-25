@@ -85,6 +85,8 @@ export default {
 <style lang="css">
   @import "../../../src/style/var.css";
 
+  $checklist-title-color: $blur-color;
+
   @component-namespace mint {
     @component checklist {
 

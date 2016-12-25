@@ -76,6 +76,8 @@ export default {
 <style lang="css">
   @import "../../../src/style/var.css";
 
+  $radio-title-color: $blur-color;
+
   @component-namespace mint {
     @component radiolist {
 

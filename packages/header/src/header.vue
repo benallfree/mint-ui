@@ -41,6 +41,8 @@ export default {
 <style lang="css">
   @import "../../../src/style/var.css";
 
+  $header-height: 40px;
+
   @component-namespace mint {
     @component header {
       align-items: center;

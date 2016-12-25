@@ -31,6 +31,8 @@ export default {
 
 <style lang="css">
   @import "../../../src/style/var.css";
+  
+  $tab-item-font-size: 12px;
 
   @component-namespace mint {
     @component tab-item {

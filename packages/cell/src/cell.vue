@@ -92,6 +92,8 @@ export default {
 <style lang="css">
   @import "../../../src/style/var.css";
 
+  $cell-value-color: $blur-color;
+
   @component-namespace mint {
     @component cell {
       background-color: inherit;

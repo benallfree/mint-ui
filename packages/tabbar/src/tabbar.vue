@@ -41,6 +41,10 @@ export default {
 
 <style lang="css">
   @import "../../../src/style/var.css";
+  
+  $tabbar-background-color: $default-background-color;
+  $tabbar-tab-item-selected-background-color: rgba($default-selected-background-color, $default-opacity);
+  $tabbar-tab-item-selected-color: $focus-color;
 
   @component-namespace mint {
     @component tabbar {
