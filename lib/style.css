@@ -11,9 +11,9 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #26a2ff;
+    background-color: #a6e2a6;
     box-sizing: border-box;
-    color: #fff;
+    color: #b8bbbf;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -114,8 +114,8 @@
     display: inline-block
 }
 .mint-button--default {
-    color: #656b79;
-    background-color: #f6f8fa;
+    color: #b8bbbf;
+    background-color: rgba(0, 0, 0, .7);
     box-shadow: 0 0 1px #b8bbbf
 }
 .mint-button--default.is-plain {
@@ -166,7 +166,7 @@
 /* Radio Component */
 /* z-index */
 .mint-cell {
-    background-color:#fff;
+    background-color:inherit;
     box-sizing:border-box;
     color:inherit;
     min-height:48px;
@@ -182,15 +182,15 @@
     background-origin:border-box;
 }
 .mint-cell:last-child {
-    background-image:-webkit-linear-gradient(bottom, #d9d9d9, #d9d9d9 50%, transparent 50%);
-    background-image:linear-gradient(0deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
+    background-image:-webkit-linear-gradient(bottom, #b8bbbf, #b8bbbf 50%, transparent 50%);
+    background-image:linear-gradient(0deg, #b8bbbf, #b8bbbf 50%, transparent 50%);
     background-size:100% 1px;
     background-repeat:no-repeat;
     background-position:bottom;
 }
 .mint-cell-wrapper {
-    background-image:-webkit-linear-gradient(top, #d9d9d9, #d9d9d9 50%, transparent 50%);
-    background-image:linear-gradient(180deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
+    background-image:-webkit-linear-gradient(top, #b8bbbf, #b8bbbf 50%, transparent 50%);
+    background-image:linear-gradient(180deg, #b8bbbf, #b8bbbf 50%, transparent 50%);
     background-size: 120% 1px;
     background-repeat: no-repeat;
     background-position: top left;
@@ -265,7 +265,7 @@
             transform: translate3d(100%, 0, 0);
 }
 .mint-cell-allow-right::after {
-    border: solid 2px #c8c8cd;
+    border: solid 2px #b8bbbf;
     border-bottom-width: 0;
     border-left-width: 0;
     content: " ";
@@ -336,7 +336,6 @@
 .mint-field.is-textarea {
     -webkit-box-align: inherit;
         -ms-flex-align: inherit;
-                -ms-grid-row-align: inherit;
             align-items: inherit;
 }
 .mint-field.is-textarea .mint-cell-title {
@@ -396,7 +395,7 @@
 /* Radio Component */
 /* z-index */
 .mint-badge {
-    color: #fff;
+    color: #b8bbbf;
     text-align: center;
     display: inline-block
 }
@@ -422,7 +421,7 @@
     background-color: #f44336
 }
 .mint-badge.is-primary {
-    background-color: #26a2ff
+    background-color: #a6e2a6
 }
 .mint-badge.is-success {
     background-color: #4caf50
@@ -457,10 +456,10 @@
     position: relative;
     width: 52px;
     height: 32px;
-    border: 1px solid #d9d9d9;
+    border: 1px solid #b8bbbf;
     border-radius: 16px;
     box-sizing: border-box;
-    background: #d9d9d9
+    background: #b8bbbf
 }
 .mint-switch-core::after, .mint-switch-core::before {
     content: " ";
@@ -476,7 +475,7 @@
 .mint-switch-core::after {
     width: 30px;
     height: 30px;
-    background-color: #fff;
+    background-color: #b8bbbf;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .4)
 }
 .mint-switch-core::before {
@@ -488,8 +487,8 @@
     display: none
 }
 .mint-switch-input:checked + .mint-switch-core {
-    border-color: #26a2ff;
-    background-color: #26a2ff
+    border-color: #a6e2a6;
+    background-color: #a6e2a6
 }
 .mint-switch-input:checked + .mint-switch-core::before {
     -webkit-transform: scale(0);
@@ -771,6 +770,7 @@ display: inline-block;
 .mint-tab-container {
     overflow: hidden;
     position: relative;
+    min-height: 100%;
 }
 .mint-tab-container .swipe-transition {
     -webkit-transition: -webkit-transform 150ms ease-in-out;
@@ -793,7 +793,7 @@ display: inline-block;
 /* Radio Component */
 /* z-index */
 .mint-navbar {
-    background-color: #fff;
+    background-color: #b8bbbf;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -807,8 +807,8 @@ display: inline-block;
     border-right: 0;
 }
 .mint-navbar .mint-tab-item.is-selected {
-    border-bottom: 3px solid #26a2ff;
-    color: #26a2ff;
+    border-bottom: 3px solid #a6e2a6;
+    color: #a6e2a6;
     margin-bottom: -3px;
 }
 .mint-navbar.is-fixed {
@@ -828,13 +828,13 @@ display: inline-block;
 /* Radio Component */
 /* z-index */
 .mint-tabbar {
-    background-image: -webkit-linear-gradient(top, #d9d9d9, #d9d9d9 50%, transparent 50%);
-    background-image: linear-gradient(180deg, #d9d9d9, #d9d9d9 50%, transparent 50%);
+    background-image: -webkit-linear-gradient(top, #b8bbbf, #b8bbbf 50%, transparent 50%);
+    background-image: linear-gradient(180deg, #b8bbbf, #b8bbbf 50%, transparent 50%);
     background-size: 100% 1px;
     background-repeat: no-repeat;
     background-position: top left;
     position: relative;
-    background-color: #fafafa;
+    background-color: rgba(0, 0, 0, .7);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -845,8 +845,9 @@ display: inline-block;
     text-align: center;
 }
 .mint-tabbar > .mint-tab-item.is-selected {
-    background-color: #eaeaea;
-    color: #26a2ff;
+    box-shadow: 0 0 1px #a6e2a6;
+    background-color: rgba(0,0,0,.3);
+    color: #a6e2a6;
 }
 .mint-tabbar.is-fixed {
     right: 0;
@@ -874,7 +875,7 @@ display: inline-block;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #d9d9d9;
+    background-color: #b8bbbf;
     box-sizing: border-box;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -886,7 +887,7 @@ display: inline-block;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #fff;
+    background-color: #b8bbbf;
     border-radius: 2px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -899,7 +900,7 @@ display: inline-block;
 }
 .mint-searchbar-inner .mintui-search {
     font-size: 12px;
-    color: #d9d9d9;
+    color: #b8bbbf;
 }
 .mint-searchbar-core {
     -webkit-appearance: none;
@@ -932,7 +933,7 @@ display: inline-block;
     font-size: 12px;
 }
 .mint-searchbar-cancel {
-    color: #26a2ff;
+    color: #a6e2a6;
     margin-left: 10px;
     text-decoration: none;
 }
@@ -958,8 +959,8 @@ display: inline-block;
     padding: 0;
 }
 .mint-checklist.is-limit .mint-checkbox-core:not(:checked) {
-    background-color: #d9d9d9;
-    border-color: #d9d9d9;
+    background-color: #b8bbbf;
+    border-color: #b8bbbf;
 }
 .mint-checklist-label {
     display: block;
@@ -983,21 +984,21 @@ display: inline-block;
     display: none;
 }
 .mint-checkbox-input:checked + .mint-checkbox-core {
-    background-color: #26a2ff;
-    border-color: #26a2ff;
+    background-color: #a6e2a6;
+    border-color: #a6e2a6;
 }
 .mint-checkbox-input:checked + .mint-checkbox-core::after {
-    border-color: #fff;
+    border-color: #b8bbbf;
     -webkit-transform: rotate(45deg) scale(1);
             transform: rotate(45deg) scale(1);
 }
 .mint-checkbox-input[disabled] + .mint-checkbox-core {
-    background-color: #d9d9d9;
+    background-color: #b8bbbf;
     border-color: #ccc;
 }
 .mint-checkbox-core {
     display: inline-block;
-    background-color: #fff;
+    background-color: #b8bbbf;
     border-radius: 100%;
     border: 1px solid #ccc;
     position: relative;
@@ -1056,21 +1057,21 @@ display: inline-block;
     display: none;
 }
 .mint-radio-input:checked + .mint-radio-core {
-    background-color: #26a2ff;
-    border-color: #26a2ff;
+    background-color: #a6e2a6;
+    border-color: #a6e2a6;
 }
 .mint-radio-input:checked + .mint-radio-core::after {
-    background-color: #fff;
+    background-color: #b8bbbf;
     -webkit-transform: scale(1);
             transform: scale(1);
 }
 .mint-radio-input[disabled] + .mint-radio-core {
-    background-color: #d9d9d9;
+    background-color: #b8bbbf;
     border-color: #ccc;
 }
 .mint-radio-core {
     display: inline-block;
-    background-color: #fff;
+    background-color: #b8bbbf;
     border-radius: 100%;
     border: 1px solid #ccc;
     position: relative;
@@ -1757,7 +1758,7 @@ to{opacity:0
     text-align: center;
     line-height: 40px;
     font-size: 16px;
-    color: #26a2ff;
+    color: #a6e2a6;
 }
 .mint-datetime-cancel {
     float: left;
@@ -1946,3 +1947,95 @@ to{opacity:0
 .mintui-field-warning:before { content: "\E608"; }
 .mintui-success:before { content: "\E602"; }
 .mintui-field-success:before { content: "\E609"; }
+/* Cell Component */
+
+/* Header Component */
+
+/* Button Component */
+
+/* Tab Item Component */
+
+/* Tabbar Component */
+
+/* Navbar Component */
+
+/* Checklist Component */
+
+/* Radio Component */
+
+/* z-index */
+
+html#cordova
+{
+
+  @keyframes fade {
+      from { opacity: 1.0; }
+      50% { opacity: 0.4; }
+      to { opacity: 1.0; }
+  }
+ 
+  @-webkit-keyframes fade {
+      from { opacity: 1.0; }
+      50% { opacity: 0.4; }
+      to { opacity: 1.0; }
+  }
+  
+}
+
+html#cordova * { -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+  /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+  
+}
+
+html#cordova body { -webkit-touch-callout: none;
+
+  /* prevent callout to copy image, etc when tap to hold */ -webkit-text-size-adjust: none;
+
+  /* prevent webkit from resizing text to fit */ -webkit-user-select: none;
+
+  /* prevent copy paste, to allow, change 'none' to 'text' */ background-color: black; background-image:linear-gradient(top, #222 0%, black 51%); background-image:-webkit-linear-gradient(top, #222 0%, black 51%); background-image:-ms-linear-gradient(top, #222 0%, black 51%); background-image:-webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          color-stop(0, #222),
+          color-stop(0.51, black)
+      ); background-attachment:fixed; font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif; font-size:12px; height:100%; margin:0px; padding:0px; text-transform:uppercase; width:100%; color: #b8bbbf;
+  
+}
+
+/* Landscape layout (with min-width) */
+
+html#cordova h1 { font-size:24px; font-weight:400; margin:0px; overflow:visible; padding:0px; text-align:center;
+  
+}
+
+html#cordova .event { border-radius:4px; -webkit-border-radius:4px; color:#FFFFFF; font-size:12px; margin:0px 30px; padding:2px 0px;
+  
+}
+
+html#cordova .event.listening { background-color:#333333; display:block;
+  
+}
+
+html#cordova .event.received { background-color:#4B946A; display:none;
+  
+}
+
+html#cordova .blink { animation:fade 3000ms infinite; -webkit-animation:fade 3000ms infinite;
+  
+}
+
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+
+  html#cordova .app
+{ background-position: left center; padding: 75px 0px 75px 170px;
+
+    /* padding-top + padding-bottom + text area = image height */ margin: -90px 0px 0px -198px;
+
+    /* offset vertical: half of image height */
+
+    /* offset horizontal: half of image width and text area width */
+  
+  }
+  }

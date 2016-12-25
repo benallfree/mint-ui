@@ -106,8 +106,8 @@ export default {
 
       @when limit {
         .mint-checkbox-core:not(:checked) {
-          background-color: $color-grey;
-          border-color: $color-grey;
+          background-color: $blur-color;
+          border-color: $blur-color;
         }
       }
     }
@@ -127,25 +127,25 @@ export default {
 
         &:checked {
           + .mint-checkbox-core {
-            background-color: $color-blue;
-            border-color: $color-blue;
+            background-color: $focus-color;
+            border-color: $focus-color;
 
             &::after {
-              border-color: $color-white;
+              border-color: $blur-color;
               transform: rotate(45deg) scale(1);
             }
           }
         }
 
         &[disabled] + .mint-checkbox-core {
-          background-color: $color-grey;
+          background-color: $blur-color;
           border-color: #ccc;
         }
       }
 
       @descendent core {
         display: inline-block;
-        background-color: $color-white;
+        background-color: $blur-color;
         border-radius: 100%;
         border: 1px solid #ccc;
         position: relative;

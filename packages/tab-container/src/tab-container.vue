@@ -20,7 +20,8 @@
     @component tab-container {
       overflow: hidden;
       position: relative;
-
+      min-height: 100%;
+      
       @descendent wrap {
         display: flex;
       }

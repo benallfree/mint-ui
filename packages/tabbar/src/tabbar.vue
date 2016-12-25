@@ -44,7 +44,7 @@ export default {
 
   @component-namespace mint {
     @component tabbar {
-      background-image:linear-gradient(180deg, $color-grey, $color-grey 50%, transparent 50%);
+      background-image:linear-gradient(180deg, $blur-color, $blur-color 50%, transparent 50%);
       background-size: 100% 1px;
       background-repeat: no-repeat;
       background-position: top left;
@@ -60,6 +60,7 @@ export default {
       }
 
       > .mint-tab-item.is-selected {
+        box-shadow: 0 0 1px $focus-color;
         background-color: $tabbar-tab-item-selected-background-color;
         color: $tabbar-tab-item-selected-color;
       }

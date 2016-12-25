@@ -111,25 +111,25 @@ export default {
 
         &:checked {
           + .mint-radio-core {
-            background-color: $color-blue;
-            border-color: $color-blue;
+            background-color: $focus-color;
+            border-color: $focus-color;
 
             &::after {
-              background-color: $color-white;
+              background-color: $blur-color;
               transform: scale(1);
             }
           }
         }
 
         &[disabled] + .mint-radio-core {
-          background-color: $color-grey;
+          background-color: $blur-color;
           border-color: #ccc;
         }
       }
 
       @descendent core {
         display: inline-block;
-        background-color: $color-white;
+        background-color: $blur-color;
         border-radius: 100%;
         border: 1px solid #ccc;
         position: relative;

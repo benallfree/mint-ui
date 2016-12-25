@@ -41,7 +41,7 @@ export default {
 
   @component-namespace mint {
     @component badge {
-      color: $color-white;
+      color: $blur-color;
       text-align: center;
       display: inline-block;
 
@@ -50,7 +50,7 @@ export default {
       }
 
       @when primary {
-        background-color: $color-blue;
+        background-color: $focus-color;
       }
 
       @when error {

@@ -9,6 +9,7 @@ var IMPORT_TEMPLATE = 'import {{name}} from \'../packages/{{package}}\';';
 var ISNTALL_COMPONENT_TEMPLATE = '  Vue.component({{name}}.name, {{name}});';
 var MAIN_TEMPLATE = `{{include}}
 import '../src/assets/font/iconfont.css';
+import '../src/style/style.css';
 
 const version = '{{version}}';
 const install = function(Vue) {

@@ -42,7 +42,7 @@ export default {
 
   @component-namespace mint {
     @component navbar {
-      background-color: $color-white;
+      background-color: $blur-color;
       display: flex;
       text-align: center;
 
@@ -60,8 +60,8 @@ export default {
         }
 
         &.is-selected {
-          border-bottom: 3px solid $color-blue;
-          color: $color-blue;
+          border-bottom: 3px solid $focus-color;
+          color: $focus-color;
           margin-bottom: -3px;
         }
       }

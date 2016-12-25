@@ -58,10 +58,10 @@ export default {
         display: inline-block;
         position: relative;
         size: 52px 32px;
-        border: 1px solid $color-grey;
+        border: 1px solid $blur-color;
         border-radius: 16px;
         box-sizing: border-box;
-        background: $color-grey;
+        background: $blur-color;
 
         &::after, &::before {
           content: " ";
@@ -72,7 +72,7 @@ export default {
 
         &::after {
           size: 30px;
-          background-color: $color-white;
+          background-color: $blur-color;
           box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
         }
 
@@ -87,8 +87,8 @@ export default {
 
         &:checked {
           + .mint-switch-core {
-            border-color: $color-blue;
-            background-color: $color-blue;
+            border-color: $focus-color;
+            background-color: $focus-color;
 
             &::before {
               transform: scale(0);

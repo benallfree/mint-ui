@@ -94,7 +94,7 @@ export default {
 
   @component-namespace mint {
     @component cell {
-      background-color: $color-white;
+      background-color: inherit;
       box-sizing: border-box;
       color: inherit;
       min-height: 48px;
@@ -110,14 +110,14 @@ export default {
       }
 
       &:last-child {
-        background-image: linear-gradient(0deg, $color-grey, $color-grey 50%, transparent 50%);
+        background-image: linear-gradient(0deg, $blur-color, $blur-color 50%, transparent 50%);
         background-size: 100% 1px;
         background-repeat: no-repeat;
         background-position: bottom;
       }
 
       @descendent wrapper {
-        background-image:linear-gradient(180deg, $color-grey, $color-grey 50%, transparent 50%);
+        background-image:linear-gradient(180deg, $blur-color, $blur-color 50%, transparent 50%);
         background-size: 120% 1px;
         background-repeat: no-repeat;
         background-position: top left;
@@ -191,7 +191,7 @@ export default {
       }
 
       @descendent allow-right::after {
-        border: solid 2px $border-color;
+        border: solid 2px $blur-color;
         border-bottom-width: 0;
         border-left-width: 0;
         content: " ";

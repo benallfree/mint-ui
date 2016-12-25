@@ -113,7 +113,7 @@ export default {
     @component searchbar {
       position: relative;
       align-items: center;
-      background-color: $color-grey;
+      background-color: $blur-color;
       box-sizing: border-box;
       display: flex;
       padding: 8px 10px;
@@ -121,7 +121,7 @@ export default {
 
       @descendent inner {
         align-items: center;
-        background-color: $color-white;
+        background-color: $blur-color;
         border-radius: 2px;
         display: flex;
         flex: 1;
@@ -130,7 +130,7 @@ export default {
 
         .mintui-search {
           font-size: 12px;
-          color: $color-grey;
+          color: $blur-color;
         }
       }
 
@@ -156,7 +156,7 @@ export default {
       }
 
       @descendent cancel {
-        color: $color-blue;
+        color: $focus-color;
         margin-left: 10px;
         text-decoration: none;
       }
