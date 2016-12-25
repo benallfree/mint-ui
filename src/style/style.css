@@ -1,6 +1,6 @@
 @import 'var.css';
 
-html#cordova
+html.cordova
 {
   * {
       -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
@@ -29,7 +29,7 @@ html#cordova
       color: $blur-color;
   }
   
-  a:hover, a:focus {
+  a, a:hover, a:focus {
       color: $blur-color;
       text-decoration: initial;
   }

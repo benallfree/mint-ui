@@ -1829,3 +1829,72 @@ to{opacity:0
 .mintui-field-success:before { content: "\E609"; }
 /* z-index */
 
+html.cordova
+{
+
+  /* Landscape layout (with min-width) */
+
+
+
+  @keyframes fade {
+      from { opacity: 1.0; }
+      50% { opacity: 0.4; }
+      to { opacity: 1.0; }
+  }
+ 
+  @-webkit-keyframes fade {
+      from { opacity: 1.0; }
+      50% { opacity: 0.4; }
+      to { opacity: 1.0; }
+  }
+  
+}
+
+html.cordova * { -webkit-tap-highlight-color: rgba(0,0,0,0);
+
+  /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+  
+}
+
+html.cordova body { -webkit-touch-callout: none;
+
+  /* prevent callout to copy image, etc when tap to hold */ -webkit-text-size-adjust: none;
+
+  /* prevent webkit from resizing text to fit */ -webkit-user-select: none;
+
+  /* prevent copy paste, to allow, change 'none' to 'text' */ background-color: black; background-image:linear-gradient(top, #222 0%, black 51%); background-image:-webkit-linear-gradient(top, #222 0%, black 51%); background-image:-ms-linear-gradient(top, #222 0%, black 51%); background-image:-webkit-gradient(
+          linear,
+          left top,
+          left bottom,
+          color-stop(0, #222),
+          color-stop(0.51, black)
+      ); background-attachment:fixed; height:100%; margin:0px; padding:0px; width:100%; color: #b8bbbf;
+  
+}
+
+html.cordova a, html.cordova a:hover, html.cordova a:focus { color: #b8bbbf; text-decoration: none; text-decoration: initial;
+  
+}
+
+html.cordova img
+  { max-width: 100%;
+  
+}
+
+html.cordova .blink { animation:fade 3000ms infinite; -webkit-animation:fade 3000ms infinite;
+  
+}
+
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+
+  html.cordova .app
+{ background-position: left center; padding: 75px 0px 75px 170px;
+
+    /* padding-top + padding-bottom + text area = image height */ margin: -90px 0px 0px -198px;
+
+    /* offset vertical: half of image height */
+
+    /* offset horizontal: half of image width and text area width */
+  
+  }
+  }
