@@ -123,7 +123,7 @@ export default {
 
       @modifier default {
         color: $button-default-color;
-        background-color: rgba($button-default-background-color, $default-opacity);
+        background-color: rgba($button-default-background-color, $default-background-opacity);
         box-shadow: $button-default-box-shadow;
 
         @when plain {

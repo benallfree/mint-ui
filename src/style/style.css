@@ -27,6 +27,7 @@ html.cordova
       padding:0px;
       width:100%;
       color: $blur-color;
+      font-family: Arial;
   }
   
   a, a:hover, a:focus {

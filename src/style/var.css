@@ -2,14 +2,14 @@ $success-color: #4caf50;
 $error-color: #f44336;
 $warning-color: #ffc107;
 $blur-color: #b8bbbf;
-$focus-color: #a6e2a6;
+$focus-color: rgb(5, 39, 123);
 $focus-color-lighter: lighten($focus-color, 17%);
 
 $body-background-color: black;
 $body-background-color-lighter: #222;
 $default-background-color: black;
-$default-opacity: 0.9;
-$default-selected-background-color: black;
+$default-background-opacity: 0.95;
+$default-selected-background-color: $focus-color;
 
 /* z-index */
 $z-index-normal: 1;

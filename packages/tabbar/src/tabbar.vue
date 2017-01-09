@@ -43,8 +43,8 @@ export default {
   @import "../../../src/style/var.css";
   
   $tabbar-background-color: $default-background-color;
-  $tabbar-tab-item-selected-background-color: rgba($default-selected-background-color, $default-opacity);
-  $tabbar-tab-item-selected-color: $focus-color;
+  $tabbar-tab-item-selected-background-color: $default-selected-background-color;
+  $tabbar-tab-item-selected-color: $blur-color;
 
   @component-namespace mint {
     @component tabbar {
@@ -53,7 +53,7 @@ export default {
       background-repeat: no-repeat;
       background-position: top left;
       position: relative;
-      background-color: $tabbar-background-color;
+      background-color: rgba($tabbar-background-color, $default-background-opacity);
       display: flex;
       position: absolute * 0 0 0;
       text-align: center;
@@ -65,7 +65,7 @@ export default {
 
       > .mint-tab-item.is-selected {
         box-shadow: 0 0 1px $focus-color;
-        background-color: $tabbar-tab-item-selected-background-color;
+        background-color: rgba($tabbar-tab-item-selected-background-color, $default-background-opacity);
         color: $tabbar-tab-item-selected-color;
       }
     }

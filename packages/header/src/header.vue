@@ -46,7 +46,7 @@ export default {
   @component-namespace mint {
     @component header {
       align-items: center;
-      background-color: $focus-color;
+      background-color: rgba($focus-color,$default-background-opacity);
       box-sizing: border-box;
       color: $blur-color;
       display: flex;

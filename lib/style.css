@@ -3,7 +3,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-color: #a6e2a6;
+    background-color: rgba(5, 39, 123, 0.95);
     box-sizing: border-box;
     color: #b8bbbf;
     display: -webkit-box;
@@ -99,7 +99,7 @@
 }
 .mint-button--default {
     color: #b8bbbf;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.95);
     box-shadow: 0 0 1px #b8bbbf
 }
 .mint-button--default.is-plain {
@@ -373,7 +373,7 @@
     background-color: #f44336
 }
 .mint-badge.is-primary {
-    background-color: #a6e2a6
+    background-color: rgb(5, 39, 123)
 }
 .mint-badge.is-success {
     background-color: #4caf50
@@ -431,8 +431,8 @@
     display: none
 }
 .mint-switch-input:checked + .mint-switch-core {
-    border-color: #a6e2a6;
-    background-color: #a6e2a6
+    border-color: rgb(5, 39, 123);
+    background-color: rgb(5, 39, 123)
 }
 .mint-switch-input:checked + .mint-switch-core::before {
     -webkit-transform: scale(0);
@@ -735,8 +735,8 @@ display: inline-block;
     border-right: 0;
 }
 .mint-navbar .mint-tab-item.is-selected {
-    border-bottom: 3px solid #a6e2a6;
-    color: #a6e2a6;
+    border-bottom: 3px solid rgb(5, 39, 123);
+    color: rgb(5, 39, 123);
     margin-bottom: -3px;
 }
 .mint-navbar.is-fixed {
@@ -754,7 +754,7 @@ display: inline-block;
     background-repeat: no-repeat;
     background-position: top left;
     position: relative;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.95);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -765,9 +765,9 @@ display: inline-block;
     text-align: center;
 }
 .mint-tabbar > .mint-tab-item.is-selected {
-    box-shadow: 0 0 1px #a6e2a6;
-    background-color: rgba(0, 0, 0, 0.9);
-    color: #a6e2a6;
+    box-shadow: 0 0 1px rgb(5, 39, 123);
+    background-color: rgba(5, 39, 123, 0.95);
+    color: #b8bbbf;
 }
 .mint-tabbar.is-fixed {
     right: 0;
@@ -845,7 +845,7 @@ display: inline-block;
     font-size: 12px;
 }
 .mint-searchbar-cancel {
-    color: #a6e2a6;
+    color: rgb(5, 39, 123);
     margin-left: 10px;
     text-decoration: none;
 }
@@ -888,8 +888,8 @@ display: inline-block;
     display: none;
 }
 .mint-checkbox-input:checked + .mint-checkbox-core {
-    background-color: #a6e2a6;
-    border-color: #a6e2a6;
+    background-color: rgb(5, 39, 123);
+    border-color: rgb(5, 39, 123);
 }
 .mint-checkbox-input:checked + .mint-checkbox-core::after {
     border-color: #b8bbbf;
@@ -953,8 +953,8 @@ display: inline-block;
     display: none;
 }
 .mint-radio-input:checked + .mint-radio-core {
-    background-color: #a6e2a6;
-    border-color: #a6e2a6;
+    background-color: rgb(5, 39, 123);
+    border-color: rgb(5, 39, 123);
 }
 .mint-radio-input:checked + .mint-radio-core::after {
     background-color: #b8bbbf;
@@ -1646,7 +1646,7 @@ to{opacity:0
     text-align: center;
     line-height: 40px;
     font-size: 16px;
-    color: #a6e2a6;
+    color: rgb(5, 39, 123);
 }
 .mint-datetime-cancel {
     float: left;
@@ -1868,7 +1868,7 @@ html.cordova body { -webkit-touch-callout: none;
           left bottom,
           color-stop(0, #222),
           color-stop(0.51, black)
-      ); background-attachment:fixed; height:100%; margin:0px; padding:0px; width:100%; color: #b8bbbf;
+      ); background-attachment:fixed; height:100%; margin:0px; padding:0px; width:100%; color: #b8bbbf; font-family: Arial;
   
 }
 
